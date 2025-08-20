@@ -46,3 +46,12 @@ nav a:hover {
   font-size: 24px;
   text-align: center;
 }
+@media (max-width: 780px) {
+  .container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .col-4 {
+    margin-bottom: 30px;
+  }
+}

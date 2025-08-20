@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+nav {
+  text-align: center;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  padding: 30px 0;
+  cursor: pointer;
+}
+nav a:hover {
+  color: gold;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.jcc {
+  justify-content: center;
+}
+.container > a {
+  padding: 30px;
+  text-align: center;
+  font-size: 24px;
+  text-decoration: none;
+}
+.col-4 img {
+  display: block;
+  width: 214px;
+  height: 317px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.col-4 h1,
+.col-4 h2,
+.col-4 h3 {
+  font-size: 24px;
+  text-align: center;
+}

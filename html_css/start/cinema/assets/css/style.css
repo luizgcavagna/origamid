@@ -3,6 +3,7 @@
   padding: 0;
   list-style: none;
   vertical-align: baseline;
+  font-family: Arial;
 }
 nav {
   text-align: center;
@@ -33,18 +34,34 @@ nav a:hover {
   font-size: 24px;
   text-decoration: none;
 }
+.container > a:hover {
+  color: gold;
+}
+h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+nav h1 {
+  margin-top: 30px;
+}
 .col-4 img {
   display: block;
   width: 214px;
   height: 317px;
   object-fit: cover;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
-.col-4 h1,
-.col-4 h2,
-.col-4 h3 {
+.col-4 p {
   font-size: 24px;
   text-align: center;
+}
+.dr {
+  color: darkred;
+}
+.db {
+  color: darkblue;
 }
 @media (max-width: 780px) {
   .container {
